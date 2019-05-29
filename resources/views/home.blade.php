@@ -167,7 +167,7 @@
                 </div>
             </div>
         </section>
-
+<!-- 
         <div class="features">
             <div class="container">
                 <div class="row">
@@ -364,7 +364,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
     </div>
 
@@ -379,7 +379,7 @@
                         </span>
                         </div>
                         <div class="desc">
-                            <h3 class="counter">23453</h3>
+                            <h3 class="counter">{{ \App\Models\User::where('role', 2)->get()->count() }}</h3>
                             <p>Students</p>
                         </div>
                     </div>
@@ -392,7 +392,7 @@
                         </span>
                         </div>
                         <div class="desc">
-                            <h3 class="counter">4053</h3>
+                            <h3 class="counter">{{ \App\Models\Course::where('is_accepted', 1)->get()->count() }}</h3>
                             <p>Courses</p>
                         </div>
                     </div>
@@ -405,7 +405,7 @@
                         </span>
                         </div>
                         <div class="desc">
-                            <h3 class="counter">350</h3>
+                            <h3 class="counter">{{ \App\Models\User::where('role', 1)->get()->count() }}</h3>
                             <p>Instructors</p>
                         </div>
                     </div>
@@ -418,8 +418,8 @@
                         </span>
                         </div>
                         <div class="desc">
-                            <h3 class="counter">12090</h3>
-                            <p>Minutes of video</p>
+                            <h3 class="counter">{{ \App\Models\Course::where('is_accepted', 1)->get()->sum('duration') }}</h3>
+                            <p>Minutes of Lecture</p>
                         </div>
                     </div>
                 </div>

@@ -2,6 +2,9 @@
 
 use Illuminate\Database\Seeder;
 use App\Models\Lecture;
+use App\Models\Course;
+use App\Models\CourseUser;
+use App\Models\Process;
 
 class LecturesTableSeeder extends Seeder
 {
@@ -14,6 +17,7 @@ class LecturesTableSeeder extends Seeder
     {
         Schema::disableForeignKeyConstraints();
         DB::table('lectures')->truncate();
+        DB::table('processes')->truncate();
         Schema::enableForeignKeyConstraints();
         // Machine Learning Lecture
         Lecture::create([
@@ -93,6 +97,37 @@ class LecturesTableSeeder extends Seeder
             'is_quiz' => 1,
             'is_accepted' => 1,
         ]);
+
+        $courseList = Course::where('is_accepted', 1)->get();
+        foreach ($courseList as $course) {
+            if ($course->id != 1) {
+                for ($temp = 1; $temp <= 3; $temp++) {
+                    Lecture::create([
+                        'title' => 'Lecture ' . $temp,
+                        'description' => 'Fake Lecture ' . $temp . ' description.',
+                        'video_link' => 'https://www.youtube.com/watch?v=EIwtr-VqwcM',
+                        'duration' => '0:4:19',
+                        'course_id' => $course->id,
+                        'week' => 1,
+                        'index' => ($temp - 1),
+                        'is_lecture' => 1,
+                        'is_quiz' => 0,
+                        'is_accepted' => 1,
+                    ]);
+                }
+            }
+
+            $studentList = CourseUser::where('course_id', $course->id)->pluck('user_id')->toArray();
+            $lectureList = Lecture::where('course_id', $course->id)->where('is_accepted', 1)->pluck('id')->toArray();
+            foreach ($studentList as $student) {
+                foreach ($lectureList as $lecture) {
+                    $createData['status'] = rand(0, 1);
+                    $createData['lecture_id'] = $lecture;
+                    $createData['user_id'] = $student;
+                    Process::create($createData);
+                }
+            }
+        }
 
 //        Lecture::create([
 //            'title' => 'Giới thiệu về Git',

@@ -6,111 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a3f01e8-afa0-4bf1-9a78-7ccc49452868" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Instructor/LectureController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Instructor/LectureController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/User/ConversationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/ConversationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/00ce4558febd3d6fcdf7bf46f822d1b5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/02ba495104397c2ebb76f4a4c1e0a399.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/08688d668746b817b9a07fe88eeff711.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/0e4eccbf199d6b7906dd860bff47940b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/0e64c29688c0f4b0be618d4d22c91701.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/0f9901b0b32ba15d05d8a4698d44b356.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/134b354f930183a1783a36fbe0cea037.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/1390a5791ef996fea10fd69dc54e740f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/16cc1ca21be54252feff17d0306c99f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/17f269e13b3ad5ded476194a8b2263b8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/18c5c6e1e2fbb9490c913a3644c3e5fc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/19d83409534368b201274e0338d9edd2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/19f60850454e85bb455fe1dfeec10ba9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/1ada45804a316c7929b0e3670ba17163.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/1b445b093c0ae9029dcc1d43819e53cf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/2279c5d94c7f18bde4ed53bad09d8e3d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/25d4eefd5ea52efa04f1434b0491a729.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/269d31474be507c1e5f42c810dc9fa0e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/282c07064445c011a677b449eb6b76f5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/283b6ce3e86eb2a27c88cfdbe248072b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/293a1b6219ff75b30f7d2bdbb756ae1c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/2bddc2adf801a42861201143c899427b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/2c5c757bdde097ca69d0251afd352ad0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/2cdbf7b0d660642a868730c65e63c10c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/321d48727916d5ca9f389f5187caf1f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/3464c7c63e85b31b8e5ae09c2abb7d35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/35c25f287ee1ba29402dad616cbc48f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/36c79fe2da6c9b9471f5c7a8a155ba36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/373b8ccd8a52bc6172c70268be48ef6f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/4dd8f6313ef6f8630d7b2b1e91c6912c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/4fbea3c36a26d220cfe9f72b3a287c65.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/5166f6629f3284cc7c5176630d4c2944.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/52bc8bd0b10e4f8ff4a3d6a1f1ea45e7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/550cdbfc8a2ea0e1ecfe0f08591ef64f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/5be87dcb20c4a7216a085d2fd3022b43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/5da14d57d0e66de916fdc881867c3a46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/5efdf7ddec73a91a8765f829a4a4f910.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/5f990b6ce56e1bb4b8e984abd6f70bbe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/617ed231bdd768498c9ab21e88c276c4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/62e789e5b18516a525bcfee947dd5f1b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/631e820b9039fce2d9ba50899d378f85.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/65d726b995e5b17ec90b8bf6a771be63.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/66e156c59fa12b53b25bfb2a52e07df2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/69ca31c6599b824f4c1be5a2214b10e6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/6ab2107a986f28cbf4516a44d5dbdb5e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/6c08ca8cd42517958041797c56edef5d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/6e663faab59da9d9c21215dcf6dd08cb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/6f704a856f76b995ca7caadbedf37b42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/6fe689a13dbb83d1f0dabfb294c9f0be.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/70333477fb925bda6f1a6b264ff298a6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/726aa2a04496496918c474c19f67e112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/732422caae6f84f69e0c6af300f0b270.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/77bbaf4cd54f0fcb7cae4d2abea7c5e5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/7d36d9c3966c798a2fe281007b56209c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/7e785ed086a950539b06150fb232bf57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/7fcd37a260afd65bf0839ecb51f689a1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/826e60d92ea253c2132a6e81e4233415.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/864e8ae9e41aea8c1b2d6d6b08613467.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/86db0f08c26c9deb545aca9588b48485.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/8775bd7b63084c3a5661e579254cf718.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/8aa54dde36fe3437cfca20eda1c37257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/8c2160568c61af83234c4d9877c45e36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/8c8fafe6f8eb2428d54b7eca5c4d62e3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/916e31bd96904c1df3d296fa44afd647.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/93f1acbe322f13280e9a142df842179c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/96aa81d47e9e7825bc17890fbfbe5115.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/994200f4f652bb7d3552c5c3a8b62a98.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/99abf70789a3d536c93ea42534057b42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/9fcdbde2d2b23aaeb7a50a6afa29b512.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/a0f7af827a39677874e58945d02aed03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/a198166b32cf7b397ff7cc363388ae1b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/a48f7bd3a2845e1a8eba6eb871e92bea.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/a559ffb0c5df50e0f9d97efc54c4b54a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/a7148fcd54c4f873fcaee0fde6c24eab.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/a97a750adcbaf5774441566cc0e97c52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/aa71ab0a660547f7dc74426af568ede7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/ae42758fead0ed39471dda6232e1cd22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/b8c25b53f213fcc804d2ad7c616723d5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/b97c6e1eaa2a62b1dfae990721ea50db.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/ba79a17552829e5ff8f901fb515628f5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/bd6836c123f350c19e0ef645b7083a17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/c22f8feec4f656f933feb98f8c1e5d30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/c2f10a1f987e4a7fd9f96b8709eb7592.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/c56b8de60178b1bce8499ed48d9c9fbe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/c7603691d7437616bfb87f0cf9f16692.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/d01a396930373cd1df327129519f5089.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/d88ca0bb86ddcf96c841ec98756619c4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/db149b92c4431b85d4dc754b43915174.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/dd2dbdb136a35d0d9b6fe38455a60a50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/e0c5e5420aaeeac0fd329963b044d3aa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/e3a870ad45c6bd0de113eb1883740772.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/e59174a6a029a99f700d4fb4fb7767a7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/ede5d363b8ec02c1efff4ab9fb5b00d5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/edf54d3dd9ba0f97c968681873235f5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/f7ee66484a9485dba04acb885da51db0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/f82b969dc8cea83aea66ab62716e6e14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/fa90dea3463c4951d130885e8a3485c5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar/fc1cdd14d0071a95a3e0daa36288b66b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/conversations/waiting_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/conversations/waiting_list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/instructor/lectures/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/instructor/lectures/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/layouts/default.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_user.csv" beforeDir="false" afterPath="$PROJECT_DIR$/course_user.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CoursesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CoursesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/LecturesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/LecturesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,19 +52,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Instructor/LectureController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-275">
+            <state relative-caret-position="2415">
               <caret line="166" column="69" selection-start-line="166" selection-start-column="69" selection-end-line="166" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
               <folding>
                 <element signature="e#7#38#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/seeds/LecturesTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
+              <folding>
+                <element signature="e#7#38#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/CoursesTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2140">
+              <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
+              <folding>
+                <element signature="e#7#33#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -222,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/lang/en/messages.php" />
         <option value="$PROJECT_DIR$/resources/views/instructor/courses/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/resources/views/errors/404.blade.php" />
@@ -238,7 +170,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_05_20_153613_add_vi_title_to_categories_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/CategoriesTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/CourseUserTableSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/CoursesTableSeeder.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/lang/vi/titles.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
@@ -259,7 +190,6 @@
         <option value="$PROJECT_DIR$/resources/views/user/courses/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/quiz_elements/check.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/permissions/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layouts/header.blade.php" />
@@ -273,6 +203,9 @@
         <option value="$PROJECT_DIR$/resources/views/instructor/lectures/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Instructor/LectureController.php" />
         <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/CoursesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/LecturesTableSeeder.php" />
       </list>
     </option>
   </component>
@@ -400,137 +333,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="road_to_school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="road_to_school" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Instructor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="road_to_school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="road_to_school" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="road_to_school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="road_to_school" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
               <item name="seeds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="conversations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="instructor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="instructor" type="462c0819:PsiDirectoryNode" />
-              <item name="lectures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -729,16 +554,18 @@
       <workItem from="1559051265444" duration="4789000" />
       <workItem from="1559086267634" duration="5894000" />
       <workItem from="1559094902148" duration="1192000" />
+      <workItem from="1559154152016" duration="2575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="743729000" />
+    <option name="totallyTimeSpent" value="746304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="25" width="1317" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.30055076" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.30527145" />
       <window_info id="Structure" order="1" sideWeight="0.5008264" side_tool="true" weight="0.23422714" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -818,13 +645,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Locale.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -879,16 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/CoursesTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3930">
-          <caret line="267" column="70" selection-start-line="267" selection-start-column="70" selection-end-line="267" selection-end-column="70" />
-          <folding>
-            <element signature="e#7#33#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1024,13 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2085">
           <caret line="139" column="92" selection-start-line="139" selection-start-column="52" selection-end-line="139" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1185,7 +988,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Instructor/LectureController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
+        <state relative-caret-position="2415">
           <caret line="166" column="69" selection-start-line="166" selection-start-column="69" selection-end-line="166" selection-end-column="69" />
         </state>
       </provider>
@@ -1194,6 +997,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CoursesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2140">
+          <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
+          <folding>
+            <element signature="e#7#33#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/LecturesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
           <folding>
             <element signature="e#7#38#0#PHP" expanded="true" />
           </folding>
