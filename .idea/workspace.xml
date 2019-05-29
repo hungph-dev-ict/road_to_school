@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/Http/Controllers/Instructor/CourseController.php" line="74" />
+    <bookmark url="file://$PROJECT_DIR$/resources" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a3f01e8-afa0-4bf1-9a78-7ccc49452868" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Instructor/LectureController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Instructor/LectureController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/User/ConversationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/ConversationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/00ce4558febd3d6fcdf7bf46f822d1b5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/02ba495104397c2ebb76f4a4c1e0a399.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/08688d668746b817b9a07fe88eeff711.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/0e4eccbf199d6b7906dd860bff47940b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/0e64c29688c0f4b0be618d4d22c91701.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/0f9901b0b32ba15d05d8a4698d44b356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/134b354f930183a1783a36fbe0cea037.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/1390a5791ef996fea10fd69dc54e740f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/16cc1ca21be54252feff17d0306c99f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/17f269e13b3ad5ded476194a8b2263b8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/18c5c6e1e2fbb9490c913a3644c3e5fc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/19d83409534368b201274e0338d9edd2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/19f60850454e85bb455fe1dfeec10ba9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/1ada45804a316c7929b0e3670ba17163.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/1b445b093c0ae9029dcc1d43819e53cf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/2279c5d94c7f18bde4ed53bad09d8e3d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/25d4eefd5ea52efa04f1434b0491a729.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/269d31474be507c1e5f42c810dc9fa0e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/282c07064445c011a677b449eb6b76f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/283b6ce3e86eb2a27c88cfdbe248072b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/293a1b6219ff75b30f7d2bdbb756ae1c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/2bddc2adf801a42861201143c899427b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/2c5c757bdde097ca69d0251afd352ad0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/2cdbf7b0d660642a868730c65e63c10c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/321d48727916d5ca9f389f5187caf1f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/3464c7c63e85b31b8e5ae09c2abb7d35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/35c25f287ee1ba29402dad616cbc48f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/36c79fe2da6c9b9471f5c7a8a155ba36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/373b8ccd8a52bc6172c70268be48ef6f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/4dd8f6313ef6f8630d7b2b1e91c6912c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/4fbea3c36a26d220cfe9f72b3a287c65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/5166f6629f3284cc7c5176630d4c2944.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/52bc8bd0b10e4f8ff4a3d6a1f1ea45e7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/550cdbfc8a2ea0e1ecfe0f08591ef64f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/5be87dcb20c4a7216a085d2fd3022b43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/5da14d57d0e66de916fdc881867c3a46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/5efdf7ddec73a91a8765f829a4a4f910.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/5f990b6ce56e1bb4b8e984abd6f70bbe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/617ed231bdd768498c9ab21e88c276c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/62e789e5b18516a525bcfee947dd5f1b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/631e820b9039fce2d9ba50899d378f85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/65d726b995e5b17ec90b8bf6a771be63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/66e156c59fa12b53b25bfb2a52e07df2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/69ca31c6599b824f4c1be5a2214b10e6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/6ab2107a986f28cbf4516a44d5dbdb5e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/6c08ca8cd42517958041797c56edef5d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/6e663faab59da9d9c21215dcf6dd08cb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/6f704a856f76b995ca7caadbedf37b42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/6fe689a13dbb83d1f0dabfb294c9f0be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/70333477fb925bda6f1a6b264ff298a6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/726aa2a04496496918c474c19f67e112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/732422caae6f84f69e0c6af300f0b270.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/77bbaf4cd54f0fcb7cae4d2abea7c5e5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/7d36d9c3966c798a2fe281007b56209c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/7e785ed086a950539b06150fb232bf57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/7fcd37a260afd65bf0839ecb51f689a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/826e60d92ea253c2132a6e81e4233415.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/864e8ae9e41aea8c1b2d6d6b08613467.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/86db0f08c26c9deb545aca9588b48485.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/8775bd7b63084c3a5661e579254cf718.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/8aa54dde36fe3437cfca20eda1c37257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/8c2160568c61af83234c4d9877c45e36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/8c8fafe6f8eb2428d54b7eca5c4d62e3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/916e31bd96904c1df3d296fa44afd647.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/93f1acbe322f13280e9a142df842179c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/96aa81d47e9e7825bc17890fbfbe5115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/994200f4f652bb7d3552c5c3a8b62a98.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/99abf70789a3d536c93ea42534057b42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/9fcdbde2d2b23aaeb7a50a6afa29b512.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/a0f7af827a39677874e58945d02aed03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/a198166b32cf7b397ff7cc363388ae1b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/a48f7bd3a2845e1a8eba6eb871e92bea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/a559ffb0c5df50e0f9d97efc54c4b54a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/a7148fcd54c4f873fcaee0fde6c24eab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/a97a750adcbaf5774441566cc0e97c52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/aa71ab0a660547f7dc74426af568ede7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/ae42758fead0ed39471dda6232e1cd22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/b8c25b53f213fcc804d2ad7c616723d5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/b97c6e1eaa2a62b1dfae990721ea50db.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/ba79a17552829e5ff8f901fb515628f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/bd6836c123f350c19e0ef645b7083a17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/c22f8feec4f656f933feb98f8c1e5d30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/c2f10a1f987e4a7fd9f96b8709eb7592.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/c56b8de60178b1bce8499ed48d9c9fbe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/c7603691d7437616bfb87f0cf9f16692.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/d01a396930373cd1df327129519f5089.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/d88ca0bb86ddcf96c841ec98756619c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/db149b92c4431b85d4dc754b43915174.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/dd2dbdb136a35d0d9b6fe38455a60a50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/e0c5e5420aaeeac0fd329963b044d3aa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/e3a870ad45c6bd0de113eb1883740772.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/e59174a6a029a99f700d4fb4fb7767a7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/ede5d363b8ec02c1efff4ab9fb5b00d5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/edf54d3dd9ba0f97c968681873235f5a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/f7ee66484a9485dba04acb885da51db0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/f82b969dc8cea83aea66ab62716e6e14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/fa90dea3463c4951d130885e8a3485c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar/fc1cdd14d0071a95a3e0daa36288b66b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/conversations/waiting_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/conversations/waiting_list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/instructor/lectures/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/instructor/lectures/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/layouts/default.blade.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/instructor/lectures/create.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4350">
+              <caret line="290" column="91" selection-start-line="290" selection-start-column="91" selection-end-line="290" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Instructor/LectureController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-275">
+              <caret line="166" column="69" selection-start-line="166" selection-start-column="69" selection-end-line="166" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+              <folding>
+                <element signature="e#7#38#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>create_at</find>
+      <find>checkUser</find>
+      <find>Pusher</find>
+      <find>275</find>
+      <find>name</find>
+      <find>my_pro</find>
+      <find>quiz.result</find>
+      <find>Summernote</find>
+      <find>pro-image</find>
+      <find>flash</find>
+      <find>If you did not create an account, no further action is required.</find>
+      <find>LectureComment</find>
+      <find>road_tp</find>
+      <find>wel</find>
+      <find>not</find>
+      <find>noti</find>
+      <find>cart</find>
+      <find>select</find>
+      <find>language</find>
+      <find>submit</find>
+      <find>most se</find>
+      <find>categories</find>
+      <find>langu</find>
+      <find>fashi</find>
+      <find>new-products</find>
+      <find>new</find>
+      <find>all</find>
+      <find>bill</find>
+      <find>this</find>
+      <find>is_single_choice_question_</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>realText($maxNbChars = 200, $indexSize = 2)</replace>
+      <replace>Course::where('is_accepted', 1)-&gt;whe</replace>
+      <replace>str_replace('public/', '', asset(</replace>
+      <replace>{{ route('courses.show', $courseRelation-&gt;course-&gt;id) }}</replace>
+      <replace>p class=&quot;error-input-p</replace>
+      <replace />
+      <replace>3498db</replace>
+      <replace>'</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/resources/lang/en/messages.php" />
+        <option value="$PROJECT_DIR$/resources/views/instructor/courses/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
+        <option value="$PROJECT_DIR$/resources/views/errors/404.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/mail/html/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/mail/html/header.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/verify.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/courses/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/Locale.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_20_153613_add_vi_title_to_categories_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/CategoriesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/CourseUserTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/CoursesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/resources/lang/vi/titles.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/app/Models/Notification.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/layouts/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/courses/my_course.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/User/LectureController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Instructor/CourseController.php" />
+        <option value="$PROJECT_DIR$/resources/lang/en/titles.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/lectures/request_list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/users/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/User.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/User/CourseController.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/cart_items/checkout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/layouts/side_menu.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/courses/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/quiz_elements/check.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/permissions/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/layouts/header.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/CheckPermissionToAccessPage.php" />
+        <option value="$PROJECT_DIR$/database/seeds/PermissionsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ConversationController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/User/ConversationController.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/conversations/waiting_list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/instructor/lectures/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Instructor/LectureController.php" />
+        <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/laracasts/flash" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/embed/embed" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/cohensive/embed" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/davejamesmiller/laravel-breadcrumbs" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/nexmo/client" />
+      <path value="$PROJECT_DIR$/vendor/laravel/nexmo-notification-channel" />
+      <path value="$PROJECT_DIR$/vendor/laravel/slack-notification-channel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/php-http/guzzle6-adapter" />
+      <path value="$PROJECT_DIR$/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/pusher/pusher-php-server" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/sodium_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/jorenvanhocht/laravel-share" />
+      <path value="$PROJECT_DIR$/vendor/league/csv" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="51" />
+    <option name="y" value="25" />
+    <option name="width" value="1160" />
+    <option name="height" value="641" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Instructor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="seeds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="conversations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="instructor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="instructor" type="462c0819:PsiDirectoryNode" />
+              <item name="lectures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadToSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadToSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/lang" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/instructor/lectures" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.CoursesTableSeeder.php">
+    <configuration name="CoursesTableSeeder.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/RoadToSchool/database/seeds/CoursesTableSeeder.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.CoursesTableSeeder.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a3f01e8-afa0-4bf1-9a78-7ccc49452868" name="Default Changelist" comment="" />
+      <created>1545665362802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545665362802</updated>
+      <workItem from="1545665373727" duration="7465000" />
+      <workItem from="1545701574728" duration="3891000" />
+      <workItem from="1545829269309" duration="143000" />
+      <workItem from="1545837185468" duration="247000" />
+      <workItem from="1545837797373" duration="4182000" />
+      <workItem from="1545924039866" duration="5132000" />
+      <workItem from="1546129406135" duration="10869000" />
+      <workItem from="1546159547193" duration="7731000" />
+      <workItem from="1546226325025" duration="7938000" />
+      <workItem from="1546257130314" duration="8455000" />
+      <workItem from="1546342777839" duration="11072000" />
+      <workItem from="1546786329355" duration="8510000" />
+      <workItem from="1546963879441" duration="4267000" />
+      <workItem from="1546993778162" duration="2276000" />
+      <workItem from="1546999785204" duration="5509000" />
+      <workItem from="1547031620654" duration="6440000" />
+      <workItem from="1547291646680" duration="135000" />
+      <workItem from="1548073695513" duration="599000" />
+      <workItem from="1549591022027" duration="3626000" />
+      <workItem from="1549606000978" duration="637000" />
+      <workItem from="1550026211338" duration="1163000" />
+      <workItem from="1550285586772" duration="614000" />
+      <workItem from="1550286955384" duration="5078000" />
+      <workItem from="1550307746782" duration="1794000" />
+      <workItem from="1550314801085" duration="1349000" />
+      <workItem from="1550482220606" duration="1987000" />
+      <workItem from="1550560667818" duration="12668000" />
+      <workItem from="1550628758846" duration="4114000" />
+      <workItem from="1550981188650" duration="7064000" />
+      <workItem from="1551005611634" duration="12095000" />
+      <workItem from="1551099986130" duration="8878000" />
+      <workItem from="1551235553068" duration="7365000" />
+      <workItem from="1551366273263" duration="35000" />
+      <workItem from="1551396641736" duration="267000" />
+      <workItem from="1551406471007" duration="7118000" />
+      <workItem from="1551420727906" duration="1460000" />
+      <workItem from="1551444215801" duration="5507000" />
+      <workItem from="1551690861214" duration="6347000" />
+      <workItem from="1551704043757" duration="13569000" />
+      <workItem from="1551747726279" duration="7763000" />
+      <workItem from="1551772249603" duration="5827000" />
+      <workItem from="1551781457340" duration="771000" />
+      <workItem from="1551782606473" duration="550000" />
+      <workItem from="1551841388494" duration="16428000" />
+      <workItem from="1551884053842" duration="4508000" />
+      <workItem from="1552187997195" duration="5128000" />
+      <workItem from="1552311409223" duration="4205000" />
+      <workItem from="1552361040982" duration="8033000" />
+      <workItem from="1552380920535" duration="1594000" />
+      <workItem from="1552382580570" duration="1617000" />
+      <workItem from="1552433913604" duration="6902000" />
+      <workItem from="1552791013196" duration="34000" />
+      <workItem from="1552791122024" duration="7093000" />
+      <workItem from="1552812571956" duration="4967000" />
+      <workItem from="1552874632545" duration="1043000" />
+      <workItem from="1552912383492" duration="9338000" />
+      <workItem from="1552956046850" duration="814000" />
+      <workItem from="1553479470919" duration="6480000" />
+      <workItem from="1553495900559" duration="7169000" />
+      <workItem from="1553937775954" duration="49000" />
+      <workItem from="1553937920402" duration="600000" />
+      <workItem from="1554021032182" duration="3221000" />
+      <workItem from="1554129982918" duration="4323000" />
+      <workItem from="1554135880919" duration="4427000" />
+      <workItem from="1554734966854" duration="74000" />
+      <workItem from="1554738616136" duration="607000" />
+      <workItem from="1555034361229" duration="3607000" />
+      <workItem from="1555042689619" duration="599000" />
+      <workItem from="1555050666806" duration="9799000" />
+      <workItem from="1555080436567" duration="3414000" />
+      <workItem from="1555125713281" duration="87000" />
+      <workItem from="1555126942920" duration="2259000" />
+      <workItem from="1555140981002" duration="4494000" />
+      <workItem from="1555150343748" duration="2533000" />
+      <workItem from="1555161583195" duration="11784000" />
+      <workItem from="1555231906706" duration="4405000" />
+      <workItem from="1555244797503" duration="10345000" />
+      <workItem from="1555293324825" duration="7017000" />
+      <workItem from="1555338161225" duration="1551000" />
+      <workItem from="1555403797392" duration="4451000" />
+      <workItem from="1555423392866" duration="11570000" />
+      <workItem from="1555468047875" duration="3840000" />
+      <workItem from="1555478413197" duration="6116000" />
+      <workItem from="1555509032341" duration="11269000" />
+      <workItem from="1555568888966" duration="69000" />
+      <workItem from="1555687303573" duration="40000" />
+      <workItem from="1555687434893" duration="8407000" />
+      <workItem from="1555697192900" duration="6386000" />
+      <workItem from="1555774148545" duration="2868000" />
+      <workItem from="1555778459279" duration="1195000" />
+      <workItem from="1555819159883" duration="4563000" />
+      <workItem from="1555855931437" duration="7968000" />
+      <workItem from="1555905714886" duration="2282000" />
+      <workItem from="1555914173020" duration="1537000" />
+      <workItem from="1555920543166" duration="815000" />
+      <workItem from="1555933056900" duration="3151000" />
+      <workItem from="1555946269277" duration="4145000" />
+      <workItem from="1555986239746" duration="9198000" />
+      <workItem from="1556000582151" duration="12199000" />
+      <workItem from="1556014231947" duration="1205000" />
+      <workItem from="1556073892309" duration="6874000" />
+      <workItem from="1556174911954" duration="1590000" />
+      <workItem from="1556202334969" duration="602000" />
+      <workItem from="1556237360310" duration="11673000" />
+      <workItem from="1556356607035" duration="5348000" />
+      <workItem from="1556378466671" duration="5544000" />
+      <workItem from="1556418105973" duration="9232000" />
+      <workItem from="1556437634500" duration="8487000" />
+      <workItem from="1556589620865" duration="28115000" />
+      <workItem from="1556674748266" duration="598000" />
+      <workItem from="1556697804025" duration="13971000" />
+      <workItem from="1556978519414" duration="598000" />
+      <workItem from="1557017441368" duration="6485000" />
+      <workItem from="1557041192322" duration="40000" />
+      <workItem from="1557041300035" duration="1022000" />
+      <workItem from="1557071157357" duration="5867000" />
+      <workItem from="1557112530871" duration="2419000" />
+      <workItem from="1557123919495" duration="3013000" />
+      <workItem from="1557131233489" duration="1903000" />
+      <workItem from="1557157041784" duration="4708000" />
+      <workItem from="1557195004935" duration="4394000" />
+      <workItem from="1557209257618" duration="10915000" />
+      <workItem from="1557224357248" duration="1594000" />
+      <workItem from="1557457310653" duration="7063000" />
+      <workItem from="1557473969801" duration="12045000" />
+      <workItem from="1557501318088" duration="7010000" />
+      <workItem from="1557542659283" duration="21467000" />
+      <workItem from="1557592499149" duration="105000" />
+      <workItem from="1557967343012" duration="1442000" />
+      <workItem from="1558059698889" duration="9000" />
+      <workItem from="1558097800119" duration="4858000" />
+      <workItem from="1558150691844" duration="20469000" />
+      <workItem from="1558195994004" duration="8501000" />
+      <workItem from="1558261923469" duration="6233000" />
+      <workItem from="1558340079158" duration="3742000" />
+      <workItem from="1558365571733" duration="8027000" />
+      <workItem from="1558411184784" duration="1537000" />
+      <workItem from="1558428373689" duration="2746000" />
+      <workItem from="1558443095283" duration="4077000" />
+      <workItem from="1558493795076" duration="2876000" />
+      <workItem from="1558535638408" duration="4036000" />
+      <workItem from="1559011619001" duration="4290000" />
+      <workItem from="1559051265444" duration="4789000" />
+      <workItem from="1559086267634" duration="5894000" />
+      <workItem from="1559094902148" duration="1192000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="743729000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="49" y="25" width="1317" height="743" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.30055076" />
+      <window_info id="Structure" order="1" sideWeight="0.5008264" side_tool="true" weight="0.23422714" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="10" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32066116" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3286052" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.34936908" />
+      <window_info id="Structure" order="1" sideWeight="0.5008264" side_tool="true" weight="0.23422714" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="10" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32066116" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3286052" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/User/CourseController.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/instructor/courses/index.blade.php</url>
+          <line>79</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/instructor/lectures/create.blade.php</url>
+          <line>170</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../applicator/dist/chat-app.html</url>
+          <line>659</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Locale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_30_145542_add_is_accepted_to_lectures_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_20_153613_add_vi_title_to_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CourseUserTableSeeder.php" />
+    <entry file="file://$PROJECT_DIR$/database/seeds/CategoriesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1736">
+          <caret line="447" column="11" lean-forward="true" selection-start-line="447" selection-start-column="11" selection-end-line="447" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/messages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/vi/messages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/vi/titles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3195">
+          <caret line="213" column="35" selection-start-line="213" selection-start-column="35" selection-end-line="213" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CoursesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3930">
+          <caret line="267" column="70" selection-start-line="267" selection-start-column="70" selection-end-line="267" selection-end-column="70" />
+          <folding>
+            <element signature="e#7#33#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3795">
+          <caret line="253" column="13" selection-start-line="253" selection-start-column="13" selection-end-line="253" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/courses/my_course.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="80" column="67" selection-start-line="80" selection-start-column="67" selection-end-line="80" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/layouts/head.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/bootstrap/site/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21480">
+          <caret line="1432" column="14" selection-start-line="1432" selection-start-column="14" selection-end-line="1432" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Notification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="89" column="53" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="52" column="59" lean-forward="true" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/users/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="76" column="152" selection-start-line="76" selection-start-column="152" selection-end-line="76" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Instructor/CourseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/CourseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="839">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+          <folding>
+            <element signature="e#45#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/lectures/request_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="134" column="88" selection-start-line="134" selection-start-column="88" selection-end-line="134" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/LectureController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="73" column="85" selection-start-line="73" selection-start-column="85" selection-end-line="73" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/titles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="213" column="52" selection-start-line="213" selection-start-column="52" selection-end-line="213" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/cart_items/checkout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="64" column="84" selection-start-line="64" selection-start-column="84" selection-end-line="64" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/QuizElementsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/quiz_elements/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="91" selection-end-column="37" />
+          <folding>
+            <element signature="e#5401#5448#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/side_menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="149" column="25" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/courses/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="139" column="92" selection-start-line="139" selection-start-column="52" selection-end-line="139" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3015">
+          <caret line="201" column="101" selection-start-line="201" selection-start-column="101" selection-end-line="201" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/permissions/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3915">
+          <caret line="261" column="44" selection-start-line="261" selection-start-column="44" selection-end-line="261" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="60" column="109" selection-start-line="60" selection-start-column="109" selection-end-line="60" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/quiz_elements/check.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/PermissionsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="77" column="53" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3900">
+          <caret line="260" column="113" selection-start-line="260" selection-start-column="113" selection-end-line="260" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/CheckPermissionToAccessPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ConversationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/layouts/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3745">
+          <caret line="321" selection-start-line="321" selection-end-line="321" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/ConversationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="141" column="37" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/layouts/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/conversations/waiting_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="382" column="44" selection-start-line="382" selection-start-column="44" selection-end-line="382" selection-end-column="44" />
+          <folding>
+            <element signature="e#5925#6019#0#HTML" expanded="true" />
+            <element signature="e#7550#7599#0#HTML" expanded="true" />
+            <element signature="e#9147#9170#0#HTML" expanded="true" />
+            <element signature="e#10123#10217#0#HTML" expanded="true" />
+            <element signature="e#14302#14322#0#HTML" expanded="true" />
+            <element signature="e#17543#17566#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Conversation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/instructor/courses/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1672">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/instructor/lectures/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4350">
+          <caret line="290" column="91" selection-start-line="290" selection-start-column="91" selection-end-line="290" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Instructor/LectureController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="166" column="69" selection-start-line="166" selection-start-column="69" selection-end-line="166" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

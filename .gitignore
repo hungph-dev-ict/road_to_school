@@ -1,4 +1,7 @@
 /node_modules
-/public
+/public/assets
 /vendor
 /resources/assets
+/public/images/avatar
+/public/images/course_avatar
+/public/vendor
