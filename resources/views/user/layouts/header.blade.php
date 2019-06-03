@@ -100,12 +100,11 @@
                         {{-- Notification --}}
                         @php
                             $notificationsList = \App\Models\Notification::where('user_id', \Auth::user()->id)->orderBy('created_at', 'desc');
-                            $notifications = $notificationsList->limit(8)->get()
+                            $notifications = $notificationsList->limit(8)->get();
                         @endphp
-{{--                    {{ dd(\Session::all()) }}--}}
                         <li class="dropdown" id="notification-area">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-expanded="false"><i class="fa fa-shopping-cart"></i> {{ __('titles.u_notification') }} <span
+                               aria-expanded="false"><i class="fa fa-bell"></i> {{ __('titles.u_notification') }} <span
                                         class="badge"
                                         id="notification-count"> {{ $notificationsList->where('status', 0)->count() }} </span></a>
                             <ul class="dropdown-menu dropdown-cart" id="notification-list" role="menu"
@@ -150,8 +149,11 @@
                                                 </span>
                                             </li>
                                         @elseif($notification->type == 0)
-                                            <li class="notification-detail"
-                                                style="cursor: pointer; {{ $notification->status ? '' : 'background: #CECEF6' }}">
+                                            <li class="notification-detail" data-id="{{ $notification->id }}"
+                                                style="cursor: pointer; {{ $notification->status ? '' : 'background: #CECEF6' }}"
+                                                data-status="{{ $notification->status }}"
+                                                data-type="{{ $notification->type }}"
+                                                >
                                                 <span class="item">
                                                     <span class="item-left">
                                                             <img src="/assets/img/logo-short.png"
@@ -222,6 +224,10 @@
                                     <a class="dropdown-item" href="{{ route('courses.my_course', Auth::user()->id) }}"
                                        style="display: block;">
                                         {{ __('titles.my_course') }}
+                                    </a>
+                                    <a class="dropdown-item" href="{{ route('bills.my_bills', Auth::user()->id) }}"
+                                       style="display: block;">
+                                        {{ __('titles.my_bills') }}
                                     </a>
                                 @endif
                                 <a class="dropdown-item" href="{{ route('logout') }}"

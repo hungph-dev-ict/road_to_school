@@ -76,31 +76,31 @@ class Course extends Model
 
     public function getAllCourse($params = array())
     {
-        $builder = Course::orderBy('updated_at', 'DESC')->where('is_accepted', 1);
+        $builder = Course::where('is_accepted', 1);
 
         if (isset($params['filter_option']) && $params['filter_option']) {
             $filterCondition = $params['filter_option'];
             $partOfVerticalBar = explode("|", $filterCondition, 2);
             $fieldSearch = $partOfVerticalBar[0];
             $sortOption = $partOfVerticalBar[1];
-            $builder->orderBy($fieldSearch, $sortOption);
+            $builder = $builder->orderBy($fieldSearch, $sortOption);
         }
         if (isset($params['course_rate']) && $params['course_rate']) {
-            $builder->where('course_rate', '>=', $params['course_rate']);
+            $builder = $builder->where('course_rate', '>=', $params['course_rate']);
         }
         if (isset($params['keyword']) && $params['keyword']) {
-            $builder->where('title', 'LIKE', '%' . $params['keyword'] . '%');
+            $builder = $builder->where('title', 'LIKE', '%' . $params['keyword'] . '%');
         }
         if (isset($params['sub_category_id']) && $params['sub_category_id']) {
             $categoryIdList = Category::where('id', $params['sub_category_id'])->pluck('id');
-            $builder->whereIn('category_id', $categoryIdList);
+            $builder = $builder->whereIn('category_id', $categoryIdList);
         }
         if (isset($params['category_id']) && $params['category_id']) {
             $categoryIdList = Category::where('parent_id', $params['category_id'])->pluck('id');
-            $builder->whereIn('category_id', $categoryIdList);
+            $builder = $builder->whereIn('category_id', $categoryIdList);
         }
         if (isset($params['user_id']) && $params['user_id']) {
-            $builder->where('user_id', $params['user_id']);
+            $builder = $builder->where('user_id', $params['user_id']);
         }
 
         return $builder->paginate(8)->appends(request()->except('page'));

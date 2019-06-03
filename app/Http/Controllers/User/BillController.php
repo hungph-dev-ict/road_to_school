@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\User;
 
+use App\Models\BillCourse;
+use App\Models\Course;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\CartItem;
@@ -14,7 +16,9 @@ class BillController extends Controller
      * The user model instance.
      */
     protected $modelBill;
-    protected $cartItem;
+    protected $modelCartItem;
+    protected $modelBillCourse;
+    protected $modelCourse;
 
     /**
      * Create a new controller instance.
@@ -22,10 +26,12 @@ class BillController extends Controller
      * @param User $users
      * @return void
      */
-    public function __construct(Bill $bill, CartItem $cartItem)
+    public function __construct(Bill $bill, CartItem $cartItem, BillCourse $billCourse, Course $course)
     {
         $this->modelBill = $bill;
         $this->modelCartItem = $cartItem;
+        $this->modelBillCourse = $billCourse;
+        $this->modelCourse = $course;
     }
 
     public function getCheckout()
@@ -59,5 +65,23 @@ class BillController extends Controller
         }
 
         return view('user.cart_items.checkout_success');
+    }
+
+    public function getMyBill($userId)
+    {
+        $billList = $this->modelBill->where('user_id', $userId)->get();
+        foreach($billList as $bill) {
+            $courseIdList = $this->modelBillCourse->where('bill_id', $bill->id)->pluck('course_id')->toArray();
+            $bill->courseList = $this->modelCourse->whereIn('id', $courseIdList)->get();
+            foreach($bill->courseList as $course) {
+                $course->price = $this->modelBillCourse->where('bill_id', $bill->id)->where('course_id', $course->id)->first()->price;
+            }
+
+            $bill->totalCourse = $this->modelBillCourse->where('bill_id', $bill->id)->count();
+        }
+
+        return view('user.bills.my_bill', compact(
+            'billList'
+        ));
     }
 }

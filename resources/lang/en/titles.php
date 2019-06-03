@@ -211,5 +211,11 @@ return [
     'browse_course_from' => 'Browse Courses from',
     'most_seller_courses' => 'Most Seller Courses',
     'recommended_courses' => 'Recommended Courses',
-    'lecture_request_list' => 'Lecture Request List'
+    'lecture_request_list' => 'Lecture Request List',
+    'my_bills' => 'My Bills',
+    'course_list' => 'Course List',
+    'bill' => 'Bill',
+    'change_course_price' => 'Change Course Price',
+    'origin_price' => 'Origin Price',
+    'promotion_price' => 'Promotion Price'
 ];

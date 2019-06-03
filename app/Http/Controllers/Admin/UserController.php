@@ -156,6 +156,11 @@ class UserController extends Controller
         return view('admin.users.create_instructor');
     }
 
+    public function createNewAdmin()
+    {
+        return view('admin.users.create_admin');
+    }
+
     public function storeNewInstructor(CreateInstructorRequest $request)
     {
         $data = $request->all();
@@ -170,4 +175,20 @@ class UserController extends Controller
 
         return redirect()->route('admin.instructor_ranking');
     }
+
+    public function storeNewAdmin(CreateInstructorRequest $request)
+    {
+        $data = $request->all();
+        $result = $this->modelUser->createAdmin($data);
+        Notification::createWelcomeNotification($result->id);
+
+        if ($result) {
+            flash(__('messages.create_admin_successfully'))->success();
+        } else {
+            flash(__('messages.create_admin_failed'))->error();
+        }
+
+        return redirect()->back();
+    }
+
 }

@@ -90,6 +90,7 @@ class Notification extends Model
         $data['content'] = 'Welcome to Road To School';
         $data['status'] = 0;
         $data['user_id'] = $userId;
+
         return Notification::create($data);
     }
 }

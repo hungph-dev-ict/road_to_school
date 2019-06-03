@@ -44,6 +44,10 @@ return [
     'you_haven_not_added_any_courses' => 'You haven\'t added any courses',
     'create_instructor_successfully' => 'Create new Instructor successfully',
     'create_instructor_failed' => 'Create new Instructor failed',
+    'create_instructor_successfully' => 'Create new Admin successfully',
+    'create_instructor_failed' => 'Create new Admin failed',
     'create_course_successfully' => 'Create new Course successfully',
     'create_course_failed' => 'Create new Course failed',
+    'update_course_price_successfully' => 'Update Course Price successfully',
+    'update_course_price_failed' => 'Update Course Price failed',
 ];

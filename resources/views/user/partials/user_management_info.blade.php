@@ -30,7 +30,7 @@
                             <li>
                                 <a href="{{ route('courses.my_course', \Auth::user()->id) }}"><i
                                             class="fa fa-book"></i>&ensp;&ensp; {{ __('titles.my_course') }}
-                                    <span class="badge"></span></a>
+                                    <span class="badge"> {{ \App\Models\CourseUser::where('user_id', \Auth::user()->id)->count() }} </span></a>
                             </li>
                             {{-- <li>
                                 <a href="{{ route('users.notifications', $selectedUser->id) }}"><i class="fa fa-hourglass-o"></i>&ensp;&ensp; {{ __('titles.notification') }} <span class="badge"> {{ ($countUnreadNotifications != 0) ? $countUnreadNotifications : '' }} </span></a>
@@ -58,6 +58,23 @@
                                             class="fa fa-heart-o"></i>&ensp;&ensp; {{ __('titles.wishlist') }} <span
                                             class="badge">{{ \App\Models\CartItem::where('user_id', \Auth::user()->id)->where('cart_item_type', 2)->get()->count() }}</span></a>
                             </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse-box">
+                    <h5 class="collapset-title"> {{ __('titles.bill') }} <a aria-expanded="true" class="pull-right"
+                                                                              data-toggle="collapse" href=""><i
+                                    class="fa fa-angle-down"></i> </a></h5>
+                    <div aria-expanded="true" id="myads" class="panel-collapse collapse in">
+                        <ul class="acc-list">
+                            <li>
+                                <a href="{{ route('bills.my_bills', \Auth::user()->id) }}"><i
+                                            class="fa fa-shopping-bag"></i>&ensp;&ensp; {{ __('titles.my_bills') }}
+                                    <span class="badge"> {{ \App\Models\Bill::where('user_id', \Auth::user()->id)->count() }}</span></a>
+                            </li>
+                            {{-- <li>
+                                <a href="{{ route('users.notifications', $selectedUser->id) }}"><i class="fa fa-hourglass-o"></i>&ensp;&ensp; {{ __('titles.notification') }} <span class="badge"> {{ ($countUnreadNotifications != 0) ? $countUnreadNotifications : '' }} </span></a>
+                            </li> --}}
                         </ul>
                     </div>
                 </div>

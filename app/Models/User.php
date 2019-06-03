@@ -26,6 +26,7 @@ class User extends Authenticatable implements MustVerifyEmail
     protected $fillable = [
         'name',
         'email',
+        'phone',
         'password',
         'avatar',
         'address',
@@ -129,10 +130,14 @@ class User extends Authenticatable implements MustVerifyEmail
             } elseif (isset($data['delete_value'])) {
                 $data['avatar'] = 'images/avatar/basic-avatar.png';
             } else {
-                $file = $data['avatar'];
-                $file->store($file->getClientOriginalName());
-                $file->move('images/dummy_image', $file->getClientOriginalName());
-                $data['avatar'] = 'images/dummy_image/' . $file->getClientOriginalName();
+                if(array_key_exists('avatar', $data)) {
+                    $file = $data['avatar'];
+                    $file->store($file->getClientOriginalName());
+                    $file->move('images/dummy_image', $file->getClientOriginalName());
+                    $data['avatar'] = 'images/dummy_image/' . $file->getClientOriginalName();
+                } else {
+                    $data['avatar'] = 'images/dummy_image/default_avatar.jpg';
+                }
             }
         }
 
@@ -190,6 +195,15 @@ class User extends Authenticatable implements MustVerifyEmail
         $data['avatar'] = 'images/default_avatar/teacher.jpg';
         $data['role'] = self::ROLE_TEACHER;
         $data['is_admin'] = 0;
+        $data['password'] = Hash::make($data['password']);
+
+        return User::create($data);
+    }
+
+    public function createAdmin($data)
+    {
+        $data['avatar'] = 'images/default_avatar/admin.jpg';
+        $data['is_admin'] = 1;
         $data['password'] = Hash::make($data['password']);
 
         return User::create($data);

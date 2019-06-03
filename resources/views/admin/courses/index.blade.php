@@ -60,18 +60,25 @@
                                     </td>
                                     @if ($course->is_accepted === 0)
                                         <td>
-                                            <span class="badge badge-pill badge-warning" id="label-status-course-{{ $course->id }}">{{ __('titles.pending') }}</span>
+                                            <span class="badge badge-pill badge-warning"
+                                                  id="label-status-course-{{ $course->id }}">{{ __('titles.pending') }}</span>
                                         </td>
                                     @else
                                         <td>
-                                            <span class="badge badge-pill badge-success" id="label-status-course-{{ $course->id }}">{{ __('titles.accepted') }}</span>
+                                            <span class="badge badge-pill badge-success"
+                                                  id="label-status-course-{{ $course->id }}">{{ __('titles.accepted') }}</span>
                                         </td>
                                     @endif
                                     <td class="text-center font-size-18">
                                         @if ($course->is_accepted == 0)
                                             <a href="#" id="button-accept-course-{{ $course->id }}"
-                                               class="text-gray m-r-15 button-accept-course" data-id="{{ $course->id }}" title="Accept Course"><i class="ti-check-box"></i></a>
+                                               class="text-gray m-r-15 button-accept-course" data-id="{{ $course->id }}"
+                                               title="Accept Course"><i class="ti-check-box"></i></a>
                                         @endif
+                                        <a class="text-gray"
+                                           href="{{ route('admin.courses.changeCoursePrice', $course->id) }}">
+                                            <i class="ti-pencil"></i>
+                                        </a>
                                         <a class="text-gray" data-toggle="modal"
                                            data-target="#delete-modal" title="Delete Course"
                                            data-url="{{ route('admin.courses.destroy', $course->id) }}">

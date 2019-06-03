@@ -4,6 +4,7 @@ use App\Models\CourseUser;
 use Illuminate\Database\Seeder;
 use App\Models\Course;
 use App\Models\Comment;
+use App\Models\Category;
 use Faker\Generator as Faker;
 use League\Csv\Writer;
 

@@ -89,6 +89,10 @@
                                             {{ Form::text('email', null, ['class' => 'form-control', 'id' => 'email', 'readonly']) }}
                                         </div>
                                         <div class="form-group">
+                                            {{ Form::label('phone', __('titles.phone_number'), ['class' => 'control-label']) }}
+                                            {{ Form::text('phone', null, ['class' => 'form-control', 'id' => 'phone']) }}
+                                        </div>
+                                        <div class="form-group">
                                             {{ Form::label('address', __('titles.address') . ' *', ['class' => 'control-label']) }}
                                             {{ Form::text('address', null, ['class' => 'form-control', 'id' => 'address', 'readonly']) }}
                                             <div class="form-inline">
@@ -157,7 +161,8 @@
                                         <div class="form-group">
                                             {{ Form::label('grade', __('titles.grade'), ['class' => 'control-label']) }}
                                             <div @if ($errors->has('grade')) class="error-input" @endif>
-                                                {{ Form::text('grade', null, ['class' => 'form-control', 'id' => 'grade', 'readonly' => '']) }}
+{{--                                                {{ Form::text('grade', null, ['class' => 'form-control', 'id' => 'grade', 'readonly' => '']) }}--}}
+                                                <input type="text" class="form-control" id="grade" name="grade" value="{{ $selectedUser->grade ? \App\Models\User::$grades[$selectedUser->grade] : '' }}" readonly>
                                             </div>
                                             {{ Form::select('grade', \App\Models\User::$grades, null, ['class' => 'form-control fix-select', 'id' => 'select-grade', 'placeholder' => __('titles.choose_grade')]) }}
                                             <p class="error-input-p"> {{ $errors->first('grade')}} </p>
@@ -217,6 +222,12 @@
 @section('inline_scripts')
     <script type="text/javascript">
         $(document).ready(function () {
+            {{--var userGrade = '{{ $selectedUser->grade }}';--}}
+            {{--// console.log(userGrade != '')--}}
+            {{--if(userGrade != '') {--}}
+            {{--    var gradeVal = '{{ \App\Models\User::$grades[$selectedUser->grade] }}';--}}
+            {{--    $('#grade').val(gradeVal);--}}
+            {{--}--}}
             $('#name').focus(function () {
                 $('#name').parent().removeClass('error-input');
                 $('#name').parent().next().remove();

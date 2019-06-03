@@ -299,7 +299,14 @@
                             <span>Back to R2S Home</span>
                         </a>
                     </li>
-
+                    <li>
+                    <a class="dropdown-item" href="{{ route('logout') }}"
+                       onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                        <i class="ti-shift-right p-r-10"></i><span>{{ __('Logout') }}</span>
+                    </a>
+                    {{ Form::open(['method' => 'post', 'url' => 'logout', 'id' => 'logout-form', 'style' => 'display: none;']) }}
+                    {{ Form::close() }}
+                    </li>
                 </ul>
             </li>
             {{--<li class="m-r-10">--}}

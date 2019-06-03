@@ -31,6 +31,9 @@
                         <li {{ setActive('admin/users/instructor_ranking') }}>
                             <a href="{{ route('admin.instructor_ranking') }}">Instructor Ranking</a>
                         </li>
+                        <li {{ setActive('admin/users/create_admin') }}>
+                            <a href="{{ route('admin.users.create_admin') }}">Create new Admin</a>
+                        </li>
                         <li {{ setActive('admin/users/create_instructor') }}>
                             <a href="{{ route('admin.users.create_instructor') }}">Create new Instructor</a>
                         </li>

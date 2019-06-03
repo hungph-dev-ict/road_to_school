@@ -23,26 +23,30 @@ class NotificationController extends Controller
     {
         $result = Notification::findOrFail($id)->update(['status' => Notification::SEEN]);
         $data = $request->all();
-        if (Arr::exists($data, 'courseId')) {
-            $parentCommentId = Comment::findOrFail($data['commentId'])->parent_comment;
-            $typeComment = 'course';
-            $lectureInCourseId = '';
-        } elseif (Arr::exists($data, 'lectureId')) {
-            $parentCommentId = LectureComment::findOrFail($data['commentId'])->parent_comment;
-            $typeComment = 'lecture';
-            $lectureInCourseId = Lecture::findOrFail($data['lectureId'])->course->id;
-        }
-        if ($parentCommentId) {
-            $data['parentCommentId'] = $parentCommentId;
-        }
-        $data['$typeComment'] = $typeComment;
-        $data['lectureInCourseId'] = $lectureInCourseId;
+        if (empty($data)) {
+            return 200;
+        } else {
+            if (Arr::exists($data, 'courseId')) {
+                $parentCommentId = Comment::findOrFail($data['commentId'])->parent_comment;
+                $typeComment = 'course';
+                $lectureInCourseId = '';
+            } elseif (Arr::exists($data, 'lectureId')) {
+                $parentCommentId = LectureComment::findOrFail($data['commentId'])->parent_comment;
+                $typeComment = 'lecture';
+                $lectureInCourseId = Lecture::findOrFail($data['lectureId'])->course->id;
+            }
+            if ($parentCommentId) {
+                $data['parentCommentId'] = $parentCommentId;
+            }
+            $data['$typeComment'] = $typeComment;
+            $data['lectureInCourseId'] = $lectureInCourseId;
 
-        if ($result) {
-            return $data;
-        }
+            if ($result) {
+                return $data;
+            }
 
-        return 500;
+            return 500;
+        }
     }
 
     public function index()

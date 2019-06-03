@@ -95,7 +95,7 @@
                                                          alt="">
                                                 </div>
                                                 <div class="info">
-                                                    <span class="title">{{ $instructor->name }}</span>
+                                                    <a href="{{ route('instructor_info', $instructor->id) }}"><span class="title" style="color: #0ab1fc">{{ $instructor->name }}</span></a>
                                                     <span class="sub-title">{{ $instructor->email }}</span>
                                                 </div>
                                             </div>

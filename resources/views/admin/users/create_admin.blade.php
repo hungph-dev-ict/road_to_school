@@ -17,18 +17,19 @@
     <div class="main-content">
         <div class="container-fluid">
             <div class="page-header">
-                <h2 class="header-title">Add new Instructor</h2>
+                <h2 class="header-title">Add new Admin</h2>
                 <div class="header-sub-title">
                     <nav class="breadcrumb breadcrumb-dash">
                         <a href="#" class="breadcrumb-item"><i class="ti-home p-r-5"></i>Home</a>
-                        <span class="breadcrumb-item active">Add new instructor account</span>
+                        <span class="breadcrumb-item active">Add new admin account</span>
                     </nav>
                 </div>
             </div>
             <div class="card">
                 <div class="card-header border bottom">
-                    <h4 class="card-title">Add new instructor account</h4>
+                    <h4 class="card-title">Add new admin account</h4>
                 </div>
+                @include('flash::message')
                 @if ($errors->any())
                     <div class="alert alert-danger">
                         <ul>
@@ -39,28 +40,28 @@
                     </div>
                 @endif
                 <div class="card-body">
-                    <p>Please input instructor information for create new instructor.</p>
+                    <p>Please input admin information for create new admin.</p>
                     @include('flash::message')
-                    <form action="{{ route('admin.users.store_new_instructor') }}" method="post">
+                    <form action="{{ route('admin.users.store_new_admin') }}" method="post">
                         @csrf
                         <div class="row m-t-30">
                             <div class="col-md-6">
                                 <div class="p-h-10">
                                     <div class="form-group">
-                                        <label class="control-label" for="input-instructor-name">Instructor Name
+                                        <label class="control-label" for="input-instructor-name">Admin Name
                                             *</label>
                                         <input type="text" class="form-control" id="input-instructor-name" name="name"
-                                               placeholder="Instructor Name...">
+                                               placeholder="Admin Name...">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="p-h-10">
                                     <div class="form-group">
-                                        <label class="control-label" for="input-instructor-email">Instructor Email
+                                        <label class="control-label" for="input-instructor-email">Admin Email
                                             *</label>
                                         <input type="text" class="form-control" id="input-instructor-email" name="email"
-                                               placeholder="Instructor Email...">
+                                               placeholder="Admin Email...">
                                     </div>
                                 </div>
                             </div>
