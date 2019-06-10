@@ -142,7 +142,7 @@ class LectureController extends Controller
                 $createdLecture = $this->modelLecture->create($data);
             } else {
                 $previousLecture = $this->modelLecture->findOrFail($data['quizPositionValue']);
-                $data['index'] = $previousLecture->index++;
+                $data['index'] = $previousLecture->index + 1;
                 $data['is_accepted'] = 0;
                 $data['week'] = $previousLecture->week;
                 $data['course_id'] = $courseId;

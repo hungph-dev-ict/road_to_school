@@ -11,6 +11,16 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        $tableNames = Schema::getConnection()->getDoctrineSchemaManager()->listTableNames();
+        Schema::disableForeignKeyConstraints();
+        foreach ($tableNames as $name) {
+            //if you don't want to truncate migrations
+            if ($name == 'migrations') {
+                continue;
+            }
+            DB::table($name)->truncate();
+        }
+        Schema::enableForeignKeyConstraints();
         $this->call(UsersTableSeeder::class);
         $this->call(CategoriesTableSeeder::class);
         $this->call(CoursesTableSeeder::class);

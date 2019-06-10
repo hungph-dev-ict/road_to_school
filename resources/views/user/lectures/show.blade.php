@@ -28,9 +28,11 @@
                     </div>
                     {!! $embed->code !!}
                     <div id="timer" style="display: none;">
+                        @if(\App\Models\Lecture::find($lectureId + 1))
                         <p class="text-center" style="font-weight: bold">Redirect to next lecture
                             <i>{{ \App\Models\Lecture::findOrFail($lectureId + 1)->title }}</i> in <span
                                     id="timer-text"></span>s</p>
+                        @endif
                     </div>
                     <div class="author">
                         <div class="inner-box">

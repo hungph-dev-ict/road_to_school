@@ -293,7 +293,8 @@ class CoursesTableSeeder extends Seeder
         foreach ($courseIdList as $courseId) {
             $randInt = rand(1, 10);
             for ($newTemp = 0; $newTemp < $randInt; $newTemp++) {
-                $commentData['content'] = array_rand($randomComment);
+                $k_comment = array_rand($randomComment);
+                $commentData['content'] = $randomComment[$k_comment];
                 $commentData['course_id'] = $courseId;
                 $k = array_rand($userIdList);
                 $commentData['user_id'] = $userIdList[$k];

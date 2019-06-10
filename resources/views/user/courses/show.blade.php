@@ -172,7 +172,7 @@
                                         @endif
                                         <th class="text-center col-xs-2">Index</th>
                                         <th class="text-center col-xs-5">Title</th>
-                                        @if(isset($availableCourse))
+                                        @if(isset($availableCourse) || \Auth::user()->role == 1 || \Auth::user()->is_admin == 1)
                                             <th class="text-center col-xs-2"> Time</th>
                                             <th class="text-center col-xs-3">
                                                 {{-- <a href="#" class="create-modal btn btn-success btn-sm" id="add-lecture">
@@ -209,7 +209,7 @@
                                             <td class="col-xs-5">
                                                 <p> {{ $lecture->title }} </p>
                                             </td>
-                                            @if($availableCourse)
+                                            @if($availableCourse || \Auth::user()->role == 1 || \Auth::user()->is_admin == 1)
                                                 <td class="col-xs-2 text-center">
                                                     <p> {{ $lecture->duration }} </p>
                                                 </td>
@@ -281,7 +281,8 @@
                                                         <div class="row">
                                                             <div class=" col-md-10 pull-right">
                                                                 <div class="form-group">
-                        <textarea id="content-{{ $comment->id }}" class="form-control content-reply" name="content" cols="30"
+                        <textarea id="content-{{ $comment->id }}" class="form-control content-reply" name="content"
+                                  cols="30"
                                   rows="1"
                                   placeholder="Write a reply...">@if($comment->user->name !== \Auth::user()->name) {{ $comment->user->name }} @endif
                         </textarea>
@@ -334,7 +335,8 @@
                                                                 <div class="row">
                                                                     <div class=" col-md-12 pull-right">
                                                                         <div class="form-group">
-                        <textarea id="content-{{ $child_comment->id }}" class="form-control content-reply" name="content" cols="30"
+                        <textarea id="content-{{ $child_comment->id }}" class="form-control content-reply"
+                                  name="content" cols="30"
                                   rows="1"
                                   placeholder="Write a reply...">@if($child_comment->user->name !== \Auth::user()->name) {{ $child_comment->user->name }} @endif</textarea>
                                                                         </div>
@@ -397,15 +399,20 @@
                                             <label class="control-label" for="star-rate">Your Rate</label>
                                             <br>
                                             <div class="stars" id="star-rate">
-                                                <input class="star star-5" id="star-5" type="radio" name="star" value="5"/>
+                                                <input class="star star-5" id="star-5" type="radio" name="star"
+                                                       value="5"/>
                                                 <label class="star star-5" for="star-5"></label>
-                                                <input class="star star-4" id="star-4" type="radio" name="star" value="4"/>
+                                                <input class="star star-4" id="star-4" type="radio" name="star"
+                                                       value="4"/>
                                                 <label class="star star-4" for="star-4"></label>
-                                                <input class="star star-3" id="star-3" type="radio" name="star" value="3"/>
+                                                <input class="star star-3" id="star-3" type="radio" name="star"
+                                                       value="3"/>
                                                 <label class="star star-3" for="star-3"></label>
-                                                <input class="star star-2" id="star-2" type="radio" name="star" value="2"/>
+                                                <input class="star star-2" id="star-2" type="radio" name="star"
+                                                       value="2"/>
                                                 <label class="star star-2" for="star-2"></label>
-                                                <input class="star star-1" id="star-1" type="radio" name="star" value="1"/>
+                                                <input class="star star-1" id="star-1" type="radio" name="star"
+                                                       value="1"/>
                                                 <label class="star star-1" for="star-1"></label>
                                             </div>
                                         </div>
@@ -443,6 +450,15 @@
                         <p class="no-margin">
                             <i class="fa fa-clock-o" id="share"></i> &ensp;
                             <strong> {{ __('titles.duration') }} </strong> {{ $selectedCourse->duration . ' ' . __('titles.minutes')}}
+                        </p>
+                        <p class="no-margin">
+                            <i class="fa fa-money"></i> &ensp;
+                            <strong class="price"> {{ __('titles.price') }} </strong>@if($selectedCourse->promotion_price !== $selectedCourse->origin_price)
+                                    <b
+                                            style="color:red">{{ $selectedCourse->promotion_price }}
+                                        $ </b><strike> {{ $selectedCourse->origin_price }}
+                                        $</strike>@else {{ $selectedCourse->origin_price }}
+                                    $@endif
                         </p>
                         <p class="no-margin">
                             <i class="fa fa-credit-card" id="share"></i> &ensp;
@@ -778,9 +794,9 @@
         });
 
         function replyJavascript() {
-            $('.content-reply').each(function() {
+            $('.content-reply').each(function () {
                 var currentString = $(this).val();
-                if(currentString.trim() != '') {
+                if (currentString.trim() != '') {
                     currentString = currentString.trim() + ': '
                 }
                 $(this).val(currentString);

@@ -98,7 +98,7 @@
                                         <tbody>
                                         @foreach($billCourses as $billCourse)
                                             <tr>
-                                                <td><a href="TODO"> #{{ $billCourse->course_id }} </a></td>
+                                                <td><a href="{{ route('courses.show', $billCourse->course_id) }}"> #{{ $billCourse->course_id }} </a></td>
                                                 <td>{{ App\Models\Course::findOrFail($billCourse->course_id)->title }}</td>
                                                 <td class="text-right">${{ $billCourse->price }}</td>
                                             </tr>

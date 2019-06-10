@@ -280,7 +280,7 @@
                                     </button>
                                 </div>
                                 @for($temp=1;$temp<=10;$temp++)
-                                    <div class="form-group row" id="select-question-{{ $temp }}-type"
+                                    <div class="form-group row select-question-type" id="select-question-{{ $temp }}-type"
                                          style="display: none;">
                                         <label class="col-sm-3 col-form-label control-label">Question {{ $temp }} Type
                                             *</label>
@@ -473,6 +473,7 @@
 
                 $('#quiz-button-get-question-form').on('click', function (event) {
                     event.preventDefault();
+                    $('.select-question-type').hide();
                     var questionCount = $('#quiz-input-question-count').val();
                     for (var temp = 1; temp <= questionCount; temp++) {
                         $('#select-question-' + temp + '-type').fadeIn(300);

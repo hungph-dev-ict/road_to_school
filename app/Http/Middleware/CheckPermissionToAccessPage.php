@@ -36,7 +36,7 @@ class CheckPermissionToAccessPage
             'admin.instructor_ranking' => 'View instructor ranking',
             'admin.users.create_instructor' => 'Create new instructor',
             'admin.users.store_new_instructor' => 'Create new instructor',
-            'admin.conversations.waiting' => 'Check and reply all conversation waiting',
+            'admin.conversations.waiting' => 'Reply conversation waiting',
             'admin.users.create_admin' => 'Create new admin',
             'admin.users.store_new_admin' => 'Create new admin',
             'admin.courses.changeCoursePrice' => 'Change course price',

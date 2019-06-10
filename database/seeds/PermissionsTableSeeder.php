@@ -75,7 +75,7 @@ class PermissionsTableSeeder extends Seeder
             'View all users',
             'View instructor ranking',
             'Create new instructor',
-            'Check and reply all conversation waiting',
+            'Reply conversation waiting',
             'Create new admin',
             'Change course price',
             'Active course'

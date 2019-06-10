@@ -59,7 +59,7 @@
                                     @endif
                                     <td>
                                         @foreach(\App\Models\BillCourse::where('bill_id', $bill->id)->get() as $billCourse)
-                                            <a href="{{ route('admin.courses.show', $billCourse->course_id) }}">{{ $billCourse->course_id }}</a>@if(!$loop->last)
+                                            <a href="{{ route('courses.show', $billCourse->course_id) }}">#{{ $billCourse->course_id }}</a>@if(!$loop->last)
                                                 , @endif
                                         @endforeach
                                     </td>
